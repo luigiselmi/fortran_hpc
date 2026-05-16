@@ -7,4 +7,7 @@ We use the [GNU Fortran](https://gcc.gnu.org/fortran/) compiler to create an exe
 ```
 $ gfortran hello.90 -o hello
 ```
-The output will be an executable hello.exe file.
+The output will be an executable hello.exe that can be run using the command
+```
+$ ./hello.exe
+```
